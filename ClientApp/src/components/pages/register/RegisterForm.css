@@ -1,0 +1,28 @@
+.register-form .input-group > * {
+  border-radius: 0;
+  border-bottom: none;
+  font-style: normal;
+  padding: 1.5rem;
+}
+
+.register-form .input-group.last > * {
+  border-bottom: 1px solid #ced4da;
+}
+
+.register-form label {
+  border-right: none;
+  width: 7.5rem;
+  background-color: #fff;
+}
+
+.register-form input {
+  border-left: none;
+}
+
+.register-form button {
+  font-style: normal;
+  font-weight: 400;
+  margin-top: 1.5rem;
+  padding: 1.5rem;
+  width: 100%;
+}

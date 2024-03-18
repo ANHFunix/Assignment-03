@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/* General format */
+
+html {
+  font-size: 13px;
+}
+
+body {
+  font-family: "Montserrat", sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* More setting */
+  font-style: italic !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+ol,
+ul {
+  margin-bottom: 0 !important;
+  padding-left: 0 !important;
+  list-style: none !important;
+}
+
+a {
+  color: #000 !important;
+  text-decoration: none !important;
+}
+
+img {
+  width: 100%;
+  box-shadow: 0 0 3px #ccc;
+}
+
+img:hover {
+  opacity: 0.5;
+}
+
+/* Keyframes */
+@keyframes appear1 {
+  from {
+    opacity: 0;
+    width: 50%;
+  }
+  to {
+    opacity: 1;
+    width: 100%;
+  }
+}
+
+@keyframes appear2 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Element format */
+.spacer {
+  flex-grow: 1;
+}
+
+.text--light {
+  font-size: 0.85rem;
+  font-weight: 300;
+}
+
+.text--gray {
+  color: #606066;
+}
+
+.appear1 {
+  animation: appear1 1.5s;
+}
+
+.appear2 {
+  animation: appear2 1.5s;
+}
+
+.vh90 {
+  min-height: 90vh;
+}
+
+.blank-page-text {
+  text-align: center;
+  margin-top: 40vh;
+}

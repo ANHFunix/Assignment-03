@@ -1,0 +1,14 @@
+.counter {
+  display: flex;
+  align-items: center;
+}
+
+.counter > button {
+  border: none;
+  background-color: #fff;
+}
+
+.counter > div {
+  width: 1.5rem;
+  text-align: center;
+}

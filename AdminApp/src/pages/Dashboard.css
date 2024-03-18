@@ -1,0 +1,12 @@
+.dashboard-item {
+  flex: 1;
+  border-left: 1px solid lightgray;
+  padding: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dashboard-item:first-child {
+  border: none;
+}

@@ -1,0 +1,15 @@
+.footer {
+  color: #fff;
+  background-color: #111;
+  padding-top: 4.5rem;
+  padding-bottom: 4.5rem;
+  animation: appear2 3s;
+}
+
+.footer ul {
+  margin-top: 1rem;
+}
+
+.footer a {
+  color: #fff !important;
+}

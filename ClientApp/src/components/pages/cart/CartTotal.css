@@ -1,0 +1,27 @@
+.cart-total {
+  background-color: #f6f9f6;
+}
+
+.cart-total h6 {
+  margin-bottom: 0;
+}
+
+.cart-total__sub {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid #606066;
+}
+
+.cart-total__total {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.cart-total__sub div {
+  font-size: 0.9rem;
+}
+
+.cart-total__total div {
+  font-size: 1.1rem;
+}

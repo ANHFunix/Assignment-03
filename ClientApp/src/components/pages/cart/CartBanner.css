@@ -1,0 +1,13 @@
+.cart-banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f6f9f6;
+  padding: 4.5rem 3rem;
+  margin-bottom: 3rem;
+}
+
+.cart-banner > div:last-child {
+  color: #d0d2cf;
+  font-weight: 600;
+}

@@ -1,0 +1,30 @@
+.checkout-total {
+  background-color: #f6f9f6;
+}
+
+.checkout-total__item,
+.checkout-total__total {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+.checkout-total__item {
+  border-bottom: 1px solid #606066;
+}
+
+.checkout-total__item h6,
+.checkout-total__total h6 {
+  margin-bottom: 0;
+}
+
+.checkout-total__item div {
+  font-size: 0.95rem;
+}
+
+.checkout-total__total div {
+  font-size: 1.15rem;
+}

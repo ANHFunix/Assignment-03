@@ -1,0 +1,12 @@
+.trending-list {
+  margin-top: 3rem;
+}
+
+.categories-items {
+  margin-top: 1.5rem;
+  gap: 1.5rem;
+}
+
+.categories-item {
+  padding: 0;
+}

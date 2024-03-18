@@ -1,0 +1,13 @@
+.cart-table {
+  text-align: center;
+}
+
+.cart-table__header {
+  background-color: #f6f9f6;
+}
+
+.cart-table__header h6 {
+  margin-bottom: 0;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}

@@ -1,0 +1,98 @@
+.livechat-modal {
+  width: 100%;
+  max-width: min(390px, calc(100vw - 4.5rem));
+  padding: 1.5rem;
+  position: fixed;
+  z-index: 10;
+  top: 50%;
+  right: min(3rem, 4vw);
+  transform: translateY(-50%);
+  background-color: #fff;
+  box-shadow: 0 0 15px #666;
+  border-radius: 1.5rem;
+}
+
+.livechat-modal img {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+}
+
+.livechat-modal__header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #e4e7ea;
+  padding-bottom: 0.75rem;
+}
+
+.livechat-modal__header div:first-child {
+  font-size: 1.25rem;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.livechat-modal__header div:last-child {
+  padding: 0.25rem 0.75rem;
+  color: #606066;
+  background-color: #e4e7ea;
+}
+
+.livechat-modal__body {
+  height: 300px;
+  overflow-y: auto;
+}
+
+.user-message {
+  color: #fff;
+  background-color: #48b0f7;
+  padding: 0.75rem;
+  margin: 0.75rem;
+  margin-left: auto;
+  width: max-content;
+  max-width: 80%;
+  border-radius: 0.25rem;
+}
+
+.admin-message {
+  display: flex;
+  width: max-content;
+  max-width: 80%;
+  margin: 0.75rem;
+  margin-right: auto;
+}
+
+.admin-message div {
+  color: #606066;
+  background-color: #e4e7ea;
+  padding: 0.75rem;
+  margin-left: 0.75rem;
+  border-radius: 0.25rem;
+}
+
+.livechat-modal__footer {
+  display: flex;
+  align-items: center;
+  border-top: 1px solid #e4e7ea;
+  padding: 0.75rem;
+}
+
+.livechat-modal__footer form {
+  margin-left: 0.75rem;
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.livechat-modal__footer input {
+  padding: 0.375rem 0.75rem;
+  flex-grow: 1;
+}
+
+.livechat-modal__footer svg {
+  font-size: 1.5rem;
+  margin-left: 0.75rem;
+}
+
+.livechat-modal__footer svg:last-child {
+  color: #48b0f7;
+}

@@ -1,0 +1,16 @@
+.product-item {
+  text-align: center;
+  margin-top: 1.5rem;
+}
+
+.product-item img {
+  margin-bottom: 1rem;
+  animation-name: appear1;
+  animation-duration: 1.25s;
+}
+
+.product-item > h6,
+.product-item > div {
+  animation-name: appear2;
+  animation-duration: 1.25s;
+}

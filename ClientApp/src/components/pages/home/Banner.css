@@ -1,0 +1,22 @@
+.banner {
+  height: 390px;
+  background-image: url("../../../assets/images/banner1.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.banner-content {
+  padding-left: 3rem;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.banner-content > * {
+  margin-bottom: 0.75rem;
+}
+
+.banner-content button {
+  padding: 0.25rem 1.25rem;
+}

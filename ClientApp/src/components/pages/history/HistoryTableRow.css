@@ -1,0 +1,18 @@
+.history-table__row h6 {
+  margin-bottom: 0;
+}
+
+.history-table__row .history-remove-btn {
+  background-color: #fff;
+  border: 2px solid #000;
+  padding: 0.5rem 1rem;
+  width: max-content;
+  white-space: nowrap;
+}
+
+.history-table__row > div {
+  padding: 1.25rem 0.75rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

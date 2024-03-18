@@ -1,0 +1,27 @@
+.login-box {
+  color: #606066;
+  width: 100%;
+  max-width: 450px;
+  padding: 6rem 3.75rem;
+  box-shadow: 0 0 3rem #ccc;
+  border-radius: 1rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.login-box .box-header {
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.login-box .box-footer {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.login-box .box-footer a {
+  color: #7195df !important;
+}

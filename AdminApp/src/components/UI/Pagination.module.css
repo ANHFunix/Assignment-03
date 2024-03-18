@@ -1,0 +1,34 @@
+.pagination {
+  text-align: center;
+  margin-top: 1.5rem;
+}
+
+.pagination nav {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0.75rem;
+}
+
+.pagination button {
+  border: 1px solid #ddd;
+  border-left: none;
+  background-color: #fff;
+  padding: 0.25rem 0.875rem;
+}
+
+.pagination .active {
+  color: #fff;
+  border-color: #0f100d;
+  background-color: #0f100d;
+}
+
+.pagination .prev {
+  border-left: 1px solid #ddd;
+  border-radius: 0.5rem 0 0 0.5rem;
+  padding: 0.25rem 0.625rem;
+}
+
+.pagination .next {
+  border-radius: 0 0.5rem 0.5rem 0;
+  padding: 0.25rem 0.5rem;
+}

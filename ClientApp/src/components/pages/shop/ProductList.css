@@ -1,0 +1,19 @@
+.product-filter {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.product-filter > * {
+  border: 1px solid #ddd;
+  border-radius: 0.25rem;
+  padding: 0.5rem 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.product-footer {
+  display: flex;
+  justify-content: flex-end;
+  animation: appear2;
+  animation-duration: 1.25s;
+}

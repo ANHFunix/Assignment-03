@@ -1,0 +1,18 @@
+.cart-table__row h6 {
+  margin-bottom: 0;
+}
+
+.cart-table__row .cart-remove-btn {
+  background-color: #fff;
+  width: max-content;
+  border: none;
+}
+
+.cart-table__row > div {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

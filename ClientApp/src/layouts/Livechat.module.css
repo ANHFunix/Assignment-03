@@ -1,0 +1,13 @@
+.livechat {
+  position: fixed;
+  bottom: 3rem;
+  right: 3rem;
+  padding: 0.625rem;
+  border-radius: 50%;
+  background-color: #000;
+}
+
+.livechat svg {
+  color: #fff;
+  font-size: 3rem;
+}

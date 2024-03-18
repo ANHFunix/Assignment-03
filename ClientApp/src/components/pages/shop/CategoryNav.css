@@ -1,0 +1,25 @@
+.category-nav h5 {
+  font-weight: 600;
+}
+
+.category-nav a.active {
+  color: #e0ba60 !important;
+}
+
+.category-items li {
+  line-height: 1.5rem;
+  padding: 0.375rem 1.5rem;
+}
+
+.category-items h6 {
+  color: #606066;
+  background-color: #f6f9f6;
+  font-weight: 600;
+  margin-top: 0.75rem;
+  padding: 0.75rem 1.5rem;
+}
+
+.category-items h6:first-child {
+  color: #fff;
+  background-color: #0f100d;
+}

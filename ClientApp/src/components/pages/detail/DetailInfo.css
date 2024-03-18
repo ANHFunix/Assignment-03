@@ -1,0 +1,53 @@
+.detail-info {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.detail-info__price {
+  font-weight: 400;
+}
+
+.detail-info__desc {
+  white-space: pre-wrap;
+}
+
+.detail-info__cate {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.detail-info__cate h6 {
+  color: #000;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.detail-info__cart {
+  display: flex;
+  width: max-content;
+  align-items: center;
+  border: 1px solid #dee2e6;
+  margin-bottom: 0;
+}
+
+.detail-info__cart > * {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
+.detail-info__cart > label {
+  padding-left: 0.75rem;
+  padding-right: 3rem;
+}
+
+.detail-info__cart > div {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+
+.detail-info__cart > button {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}

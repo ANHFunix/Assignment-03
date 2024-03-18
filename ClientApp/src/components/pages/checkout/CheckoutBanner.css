@@ -1,0 +1,16 @@
+.checkout-banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f6f9f6;
+  padding: 4.5rem 3rem;
+  margin-bottom: 3rem;
+}
+
+.checkout-banner > div:last-child {
+  font-weight: 600;
+}
+
+.checkout-banner > div:last-child span {
+  color: #d0d2cf;
+}

@@ -1,0 +1,25 @@
+.header {
+  font-weight: 500;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.header ul {
+  display: flex;
+  gap: 1.25rem;
+  align-items: center;
+  margin-left: 0.75rem;
+  margin-right: 0.75rem;
+  position: relative;
+}
+
+.header .logo {
+  font-size: 1.35rem;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.header a.active {
+  color: #e0ba60 !important;
+}

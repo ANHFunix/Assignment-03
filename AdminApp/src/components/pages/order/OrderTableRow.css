@@ -1,0 +1,23 @@
+.order-table__row h6 {
+  margin-bottom: 0;
+}
+
+.order-table__row img {
+  width: 100%;
+  max-width: 150px;
+}
+
+.order-table__row .order-remove-btn {
+  background-color: #fff;
+  border: 2px solid #000;
+  padding: 0.5rem 1rem;
+  width: max-content;
+  white-space: nowrap;
+}
+
+.order-table__row > div {
+  padding: 1.25rem 0.75rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
